@@ -1,0 +1,11 @@
+.banner {
+    background-image: url('/assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #d20505;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+}

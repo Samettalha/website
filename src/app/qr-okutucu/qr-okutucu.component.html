@@ -1,0 +1,32 @@
+<h1>Product Search</h1>
+    
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search for a product...">
+        <button id="search-button">Search</button>
+    </div>
+
+    <div id="result">
+        <p id="search-result"></p>
+    </div>
+
+    <script type="module" src="script.ts"></script>
+    <script>// Sample product list (you can replace this with dynamic data)
+        const products= ['Motorcycle', 'Helmet', 'Gloves', 'Jacket', 'Boots'];
+        
+        const searchInput = document.getElementById('search-input');
+        const searchButton = document.getElementById('search-button');
+        const searchResult = document.getElementById('search-result');
+        
+        function searchProduct() {
+            const query = searchInput.value.toLowerCase();
+            const found = products.some(product => product.toLowerCase() === query);
+        
+            if (found) {
+                searchResult.textContent = `Product "${searchInput.value}" found!`;
+            } else {
+                searchResult.textContent = `Product "${searchInput.value}" not found.`;
+            }
+        }
+        
+        searchButton.addEventListener('click', searchProduct);
+        </script>

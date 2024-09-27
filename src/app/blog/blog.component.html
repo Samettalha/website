@@ -1,0 +1,62 @@
+<main>
+    <section id="home" class="intro">
+        <h2>Hoş Geldiniz</h2>
+        <p>Bu blogda çeşitli konularda yazılar bulabilir ve ilginizi çeken makaleleri okuyabilirsiniz.</p>
+    </section>
+
+    <section id="about" class="about">
+        <h2>Hakkımda</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Merhaba, ben [İsminiz]. Yazmak benim tutkum ve bu blogu kurarak düşüncelerimi ve bilgimi paylaşmak istedim.</p>
+                <p>Bu blogda teknoloji, seyahat, kişisel gelişim ve daha birçok konuda yazılar bulabilirsiniz. Amacım, bu konularda edindiğim bilgileri sizinle paylaşarak size faydalı olmak.</p>
+            </div>
+            <div class="about-image">
+                <img src="..." alt="Hakkımda Resmi">
+            </div>
+        </div>
+    </section>
+
+    <section id="blog" class="blog-posts">
+        <h2>Blog Yazıları</h2>
+        <div class="blog-post">
+            <h3>Yazı Başlığı 1</h3>
+            <p>Bu bölümde yazınızın özetini veya giriş kısmını paylaşabilirsiniz. Devamında detaylı bilgi sunarak okuyucularınıza faydalı içerikler sunabilirsiniz.</p>
+            <img src="..." alt="Blog Görseli 1">
+            <p>Devamında yazınızın içeriği detaylandırılabilir...</p>
+        </div>
+
+        <div class="blog-post">
+            <h3>Yazı Başlığı 2</h3>
+            <p>Bu bölümde farklı bir yazınızın özetini veya giriş kısmını paylaşabilirsiniz. Konuyla ilgili daha fazla bilgi için detaylı bir açıklama yapabilirsiniz.</p>
+            <img src="..." alt="Blog Görseli 2">
+            <p>Devamında yazınızın içeriği detaylandırılabilir...</p>
+        </div>
+
+        <!-- Yeni blog yazıları buraya eklenebilir -->
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>İletişim</h2>
+        <form action="#" method="post">
+            <label for="name">Adınız:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mesajınız:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Gönder</button>
+        </form>
+    </section>
+</main>
+<nav>
+    <ul>
+        <li><a routerLink="urunler">ürünler</a></li>
+        <li><a routerLink="hakkinda">Hakkında</a></li>
+        <li><a routerLink="iletisim">İletişim</a></li>
+    </ul>
+</nav>
+

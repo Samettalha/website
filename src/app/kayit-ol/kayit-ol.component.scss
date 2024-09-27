@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('/src/assets/banner.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    width: 600px;
+}
+
+.signup, .social-signin {
+    padding: 40px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.signup h2, .social-signin h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e74c3c;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    background-color: #f2f2f2;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.social-signin button {
+    background-color: #2980b9;
+    margin-top: 10px;
+}
+
+.social-signin .facebook {
+    background-color: #3b5998;
+}
+
+.social-signin .twitter {
+    background-color: #00acee;
+}
+
+.social-signin .google {
+    background-color: #dd4b39;
+}
